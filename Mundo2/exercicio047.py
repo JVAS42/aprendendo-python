@@ -1,3 +1,4 @@
-for contador in range(1, 51):
+for contador in range(2, 51, 2):
     if (contador % 2 == 0):
-        print(contador)
+        print(contador, end=' ')
+print('FIM!')
