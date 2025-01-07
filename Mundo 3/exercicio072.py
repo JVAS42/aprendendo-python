@@ -3,8 +3,9 @@ tupla_de_numeros = ('Zero', 'Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'S
 
 numero_escolhido = int(input('Digite um número entre 0 e 20: '))
 while True:
+    numero_escolhido = int(input('Digite um número entre 0 e 20: '))
     if numero_escolhido > 20:
-        numero_escolhido = int(input('Número não encontrado. Tente novamente: '))
+        print('Número não encontrado. Tente novamente!')
     else:
         print(f'O número informado foi {tupla_de_numeros[numero_escolhido]}')
         break
