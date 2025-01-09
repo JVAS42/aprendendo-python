@@ -8,5 +8,10 @@ for i in range(0, len(tupla_de_numeros_digitados)):
 
 print('Você digitou os valores', tupla_de_numeros_digitados)
 print(f'O valor 9 apareceu {tupla_de_numeros_digitados.count(9)} vez(es)')
-print(f'O valor 3 apareceu na {tupla_de_numeros_digitados.index(3)+1}º posição')
+
+if 3 in tupla_de_numeros_digitados:
+    print(f'O valor 3 apareceu na {tupla_de_numeros_digitados.index(3)+1}º posição')
+else:
+    print(f'O valor 3 não foi digitado')
+
 print(f'Os valores pares digitador foram {contador_par}')
