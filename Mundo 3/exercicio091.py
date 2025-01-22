@@ -1,8 +1,3 @@
-'''
-Tive um pouco de dificuldade, pq eu queria resolver usando lista e tuplas,
-mas pela resolução do vídeo, ele resolve usando apenas uma lista
-'''
-
 from random import randint
 
 jogo_do_dado = dict()
