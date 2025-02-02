@@ -13,8 +13,8 @@ def fatorial(num, show = False):
             else:
                 print(i, end=' = ')
         resultado = resultado * i
-    print(resultado)
+    return resultado
 
 help(fatorial)
-fatorial(5)
-fatorial(5, show=True)
+print(fatorial(5))
+print(fatorial(5, show=True))
