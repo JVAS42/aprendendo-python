@@ -2,6 +2,7 @@ from datetime import datetime
 
 
 def maior_idade(a):
+    from datetime import datetime # Escopo de importação
     idade = datetime.now().year - a
     if idade < 18:
         return False
