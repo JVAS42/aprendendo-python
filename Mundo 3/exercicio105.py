@@ -31,6 +31,6 @@ def notas(* notas, situação=False):
     return boletin_aluno
 
 
-help(nota)
+help(notas)
 resp = notas(5.5, 9.5, 10, 6.5, situação=True)
 print(resp)
